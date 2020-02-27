@@ -1,0 +1,17 @@
+Funcionamento do Programa:
+
+- O arquivo contendo o formulário é formulario.txt
+
+- No terminal o modo de leitura do arquivo em ifstream deve ser modificado Ex: ifstream(a) onde "a" é uma string que
+recebe o argv[1], ou seja, o nome do arquivo.
+
+- Como parâmetro no terminal ou clion deve ser passado da seguinte forma: 
+Ex -> Terminal: ./programa formulario.txt "São José" "28/02/2020" "Seu Maneca" "PRG2"
+
+Ex -> clion: formulario.txt "São José" "28/02/2020" "Seu Maneca" "PRG2"
+
+- Caso o número de argumentos seja menor ou maior, irá mostrar um erro na entrada de dados em tela
+
+- O arquivo é lido, e com base nas palavras chaves é substituído no formulário e mostrado em tela
+
+- As palavras chaves são trocadas com base nos argumentos passados como parâmetro
