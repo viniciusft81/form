@@ -1,3 +1,10 @@
+/*
+ IFSC - Campus São José
+ Desenvolvido por - Vinicius Tonini
+ Projeto - Gerador de Texto a Partir do Formulário
+ Programação II
+ */
+
 #include <iostream>
 #include <string>
 #include <fstream>
